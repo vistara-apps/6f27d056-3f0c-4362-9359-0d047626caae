@@ -1,0 +1,11 @@
+export default function Loading() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center space-y-4">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto"></div>
+        <p className="text-white text-lg">Loading AssetMesh...</p>
+        <p className="text-gray-300 text-sm">Aggregating your portfolio data</p>
+      </div>
+    </div>
+  );
+}
